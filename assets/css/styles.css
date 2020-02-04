@@ -1,0 +1,101 @@
+/* Core Styles */
+
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	background: #333;
+	color: #fff;
+	font-size: 1.1rem;
+	line-height: 1.5;
+	text-align: center;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 1em 0;
+}
+
+p {
+	margin: 0;
+	padding: 1em 0;
+}
+
+.btn {
+	display: inline-block;
+	background: #333333;
+	color: #fff;
+	text-decoration: none;
+	border: 1px solid #666;
+}
+
+.btn:hover {
+	background: #eaeaea;
+	color: #333;
+}
+
+/* Header */
+
+#heading {
+	min-height: 150px;
+	color: #fff;
+	text-align: center;
+}
+
+#heading .bg-image {
+	position: absolute;
+	background: #333 url('https://images.pexels.com/photos/97076/pexels-photo-97076.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 150px;
+	z-index: -1;
+	opacity: 0.4;
+}
+
+#heading p {
+	padding: 0;
+}
+
+#heading h1 {
+	padding: 0.2em;
+}
+
+#heading .content-wrap, #section-a .content-wrap {
+	padding: 0 1.5em;
+}
+
+/* Section A */
+
+#section-a {
+	background: #eaeaea;
+	color: #333;
+	padding-bottom: 2em;
+}
+
+/* Footer */
+
+#main-footer {
+	background: #121212;
+	color: #fff;
+	text-align: center;
+	opacity: 87%;
+}
+
+#main-footer a {
+	text-decoration: none;
+}
+
+#main-footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding-bottom: 0.5rem;
+	padding-top: 0.5rem;
+}

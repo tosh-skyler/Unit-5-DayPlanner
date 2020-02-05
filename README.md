@@ -15,6 +15,10 @@ This application's purpose is to allow a user to save events for each hour of th
 * Save button
 * Local storage to save user input
 
+## Known Bugs
+
+* Is in dire need of optimization for mobile view
+
 ## To Do
 
 * Create a boilerplate and outline

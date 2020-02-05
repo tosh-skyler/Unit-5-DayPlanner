@@ -72,6 +72,7 @@ textarea {
 	padding: 0px;
 	border-top: 2px solid rgba(18, 18, 18, .4);
 	border-bottom: 2px solid rgba(18, 18, 18, .4);
+	height: 4rem;
 }
 
 .description {
@@ -84,10 +85,10 @@ textarea {
 }
 
 .row {
-	white-space: pre-wrap;
-	height: 80px;
-	justify-content: space-between;
+	display: flex;
+	height: 4rem;
 	padding: 4em;
+	justify-content: space-around;
 }
 
 .hour {
@@ -96,7 +97,7 @@ textarea {
 	background-color: rgba(18, 18, 18, .4);
 	color: white;
 	padding-right: 1em;
-	padding-left: 0;
+	padding-left: 1rem;
 }
 
 .past {
@@ -116,23 +117,26 @@ textarea {
 
 .time-block{
 	display: flex;
-    justify-content: center;
-
+	justify-content: center;
+	align-items: center;
+	height: 4rem;
 }
 
 .fa-save{
 	display: flex;
 	justify-content: space-around;
-	padding: 0;
-	height: 0px;
+	align-items: center;
+	height: 4rem;
 }
 
 .saveBtn {
 	border-top-right-radius: 10px;
 	border-bottom-right-radius: 10px;
 	background-color: rgba(18, 18, 18, .4);
-	border: rgba(18, 18, 18, .4);
+	border: 0px solid rgba(18, 18, 18, .4);
 	color: white;
+	padding-left: 1em;
+	padding-right: 1em;
 }
 
 .saveBtn i:hover {

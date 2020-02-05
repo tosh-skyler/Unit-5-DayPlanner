@@ -68,8 +68,8 @@ textarea {
 	background: transparent;
 	border: none;
 	resize: none;
-	color: #000000;
-	padding: 10px;
+	color: #fff;
+	padding: 0px;
 	border-top: 2px solid rgba(18, 18, 18, .4);
 	border-bottom: 2px solid rgba(18, 18, 18, .4);
 }

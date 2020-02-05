@@ -114,6 +114,19 @@ textarea {
 	color: white;
 }
 
+.time-block{
+	display: flex;
+    justify-content: center;
+
+}
+
+.fa-save{
+	display: flex;
+	justify-content: space-around;
+	padding: 0;
+	height: 0px;
+}
+
 .saveBtn {
 	border-top-right-radius: 10px;
 	border-bottom-right-radius: 10px;
